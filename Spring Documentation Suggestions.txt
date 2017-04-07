@@ -1,0 +1,53 @@
+Here's the ToC I'd use for this topic:
+
+Building a Restful Web Service
+  What You'll Build
+  What You'll Need
+  How to Complete This Guide
+    (Under the "skip the basics" paragraph, I'd mention that importing the 
+    project in STS fetches the contents of the repository. That may be true 
+    for IntelliJ, too. I didn't test it, due to the time limitation.)
+  Preparing to Build with Gradle
+  Preparing to Build with Maven
+  Creating the Code
+    (This is where I'd mention that STS is built on Eclipse.)
+    Create a Resource Representation Class
+    Create a Resource Controller
+    Make the Application Executable
+    Test the Service
+    (This where I'd mention that it can be run from within the IDE.)
+
+Most of my ToC is identical to the original. The difference lies in changing
+the "Build with Gradle", "Build with Maven", and "Build with your IDE"
+headings. Having them all share the same structure makes it seem like I can
+pick just one of them. It is true that I can pick either Gradle or Maven,
+but I can't dodge typing code somewhere, and an IDE is a logical place for
+that.
+
+To enable findability/discoverability in this topic, I'd add a See Also 
+heading at the bottom, which would have links to the following topics:
+
+  *  Building a RESTful Web Service with Spring Boot Actuator
+  *  Consuming a RESTful Web Service
+  *  Consuming a RESTful Web Service with rest.js
+  *  Consuming a RESTful Web Service with AngularJS
+  *  Consuming a RESTful Web Service with jQuery
+  *  Enabling Cross Origin Requests for a RESTful Web Service
+  *  Accessing JPA Data with REST
+  *  Accessing GemFire Data with REST
+  *  Accessing MongoDB Data with REST
+  *  Building a Hypermedia-Driven RESTful Web Service
+  *  Integrating Data
+
+  (That might seem like a lot, but the idea is to let people discover their
+  own paths, based on whatever problem they want to solve next. In my own
+  case, I have in mind an application that I want to build on Spring and 
+  connect to MongoDB on the back end and Angular on the front end. Other 
+  readers might have in mind other front ends and backends, and we should let 
+  them find that content from here.)
+
+(Here's the structure I'd add.)
+* A roadmap block for where to find more information. It would explain the 
+  content within the Docs, Guides, and Projects links at the top of the page, 
+  to give the user a better idea of where to go next.)
+* A call for feedback.
